@@ -1,1 +1,27 @@
 /* Add CSS Styling */
+.black, .yellow {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.yellow {
+  background-color: yellow;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
